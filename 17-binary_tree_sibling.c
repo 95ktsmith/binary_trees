@@ -3,7 +3,7 @@
 /**
  * binary_tree_sibling - The sibling of a binary tree node
  * @node: The node to find the sibling of
- * 
+ *
  * Return: The node itself or NULL on failure
  */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
@@ -19,5 +19,4 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 		return (node->parent->right);
 
 	return (NULL);
-	
 }
